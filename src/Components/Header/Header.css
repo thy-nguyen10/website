@@ -1,5 +1,5 @@
 .sub-header {
-    background-color: #FF5722;
+    background-color: #d05935;
     display: flex;
     justify-content: center;
     color: white;
@@ -17,19 +17,23 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background: rgb(28, 24, 233);
-    padding: 0 50px;
-
+    background: rgb(32, 30, 189);
+    padding: 4px 50px;
+    gap: 30px;
 }
 
 .left-nav, .right-nav {
     display: flex;
-    justify-content: baseline;
-    gap: 30px;
-    color: yellow;
+    color: rgb(224, 224, 96);
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
+}
+
+.left-nav, .right-nav, p {
+    gap: 30px;
+    overflow-y: hidden;
+    margin-bottom: 0;
 }
 
 .logo-web {
@@ -40,10 +44,12 @@
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 100;
-    color: yellow;
+    color: rgb(224, 224, 96);
+    margin-left: 40px;
 }
 
 .main-title {
     font-size: xx-large;
     font-weight: 500;
+    margin-bottom: -10px;
 }
