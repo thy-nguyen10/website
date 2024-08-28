@@ -47,7 +47,7 @@
     border: none;
 }
 
-.price_addtocard {
+.price_addtocart {
     display: flex;
     justify-content: space-between;
     background-color: rgb(141, 141, 144);
@@ -58,6 +58,6 @@
     font-weight: 500;
 }
 
-.price_addtocard p {
+.price_addtocart p {
     margin: 11px 15px;
 }

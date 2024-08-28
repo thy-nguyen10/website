@@ -22,9 +22,9 @@ const NewArrial = () => {
           <FontAwesomeIcon icon={faHeartRegular} size="1x" className="icon_heart"/>
           </div>
         </div>
-        <div className="price_addtocard">
+        <div className="price_addtocart">
           <p>99.000</p>
-          <p>Add to card</p>
+          <p>Add to cart</p>
         </div>
       </div>
 
@@ -41,9 +41,9 @@ const NewArrial = () => {
           <FontAwesomeIcon icon={faHeartRegular} size="1x" className="icon_heart"/>
           </div>
         </div>
-        <div className="price_addtocard">
+        <div className="price_addtocart">
           <p>99.000</p>
-          <p>Add to card</p>
+          <p>Add to cart</p>
         </div>
       </div>
 
@@ -60,9 +60,9 @@ const NewArrial = () => {
           <FontAwesomeIcon icon={faHeartRegular} size="1x" className="icon_heart"/>
           </div>
         </div>
-        <div className="price_addtocard">
+        <div className="price_addtocart">
           <p>99.000</p>
-          <p>Add to card</p>
+          <p>Add to cart</p>
         </div>
       </div>
 
@@ -79,9 +79,9 @@ const NewArrial = () => {
           <FontAwesomeIcon icon={faHeartRegular} size="1x" className="icon_heart"/>
           </div>
         </div>
-        <div className="price_addtocard">
+        <div className="price_addtocart">
           <p>99.000</p>
-          <p>Add to card</p>
+          <p>Add to cart</p>
         </div>
       </div>
       </div>
