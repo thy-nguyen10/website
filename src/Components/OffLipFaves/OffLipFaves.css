@@ -1,0 +1,70 @@
+.off_lip_faves {
+    margin-bottom: 10px;
+}
+
+.title_off_lip_faves p{
+    padding-bottom: 20px;
+}
+
+.title_off_lip_faves h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.main_new_arrival, .price_addtocard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_new_arrival{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.sub_favorite {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(141, 141, 144);
+    border-radius: 50%;
+}
+
+.icon_heart {
+    margin-left: 17%;
+    margin-top: 17%;
+    color: rgb(255, 255, 255);
+}
+
+.main_name_new_arrival h4{
+    font-size: 20px;
+}
+
+.main_name_new_arrival p {
+    font-size: 15px;
+}
+
+.img_new_arrival_item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.price_addtocart {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(141, 141, 144);
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.price_addtocart p {
+    margin: 11px 15px;
+}

@@ -3,6 +3,7 @@ import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header'
 import NewArrivalandGiftNecklaces from './Components/NewArrivalandGiftNecklaces/NewArrivalandGiftNecklaces';
 import Slider from './Components/Slider/Slider';
+import UnderShop from './Components/UnderShop/UnderShop';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider/>
       <NewArrivalandGiftNecklaces/>
       <Banner/>
+      <UnderShop/>
       </div>
     </div>
   );
