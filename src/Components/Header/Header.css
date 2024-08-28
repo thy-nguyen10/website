@@ -12,11 +12,10 @@
     padding: 5px 0;
 }
 
-.main-header, .box-header {
+.box-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
     background: rgb(32, 30, 189);
     padding: 4px 50px;
     gap: 30px;
@@ -45,7 +44,7 @@
     font-size: 15px;
     font-weight: 100;
     color: rgb(224, 224, 96);
-    margin-left: 40px;
+    margin-left: 4%;
 }
 
 .main-title {

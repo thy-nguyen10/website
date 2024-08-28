@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header'
+import NewArrivalandGiftNecklaces from './Components/NewArrivalandGiftNecklaces/NewArrivalandGiftNecklaces';
 import Slider from './Components/Slider/Slider';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="main-app">
       <Header/>
       <Slider/>
+      <NewArrivalandGiftNecklaces/>
       </div>
     </div>
   );
