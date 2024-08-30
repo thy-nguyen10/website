@@ -1,0 +1,28 @@
+.sub_footer {
+    background-color: #6b6b6b; 
+    padding: 25px; 
+    padding: 6% 11% 4%;
+}
+
+.sub_footer_title {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: baseline;
+    color: white; 
+    font-weight: 400;
+    font-size: 38px;
+    font-style: italic;
+    height: 80px;
+}
+
+.sub_footer_img {
+    display: flex; 
+    gap: 30px; 
+}
+
+.sub_footer_sub_img {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}

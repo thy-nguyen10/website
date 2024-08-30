@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header'
 import NewArrivalandGiftNecklaces from './Components/NewArrivalandGiftNecklaces/NewArrivalandGiftNecklaces';
 import Slider from './Components/Slider/Slider';
@@ -14,6 +15,7 @@ function App() {
       <NewArrivalandGiftNecklaces/>
       <Banner/>
       <UnderShop/>
+      <Footer/>
       </div>
     </div>
   );
