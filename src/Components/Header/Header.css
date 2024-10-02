@@ -1,9 +1,13 @@
+.main-header {
+    background: #fffbe7;
+}
+
 .sub-header {
-    background-color: #d05935;
+    background-color: #f24c25;
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -16,17 +20,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(32, 30, 189);
     padding: 4px 50px;
     gap: 30px;
 }
 
 .left-nav, .right-nav {
     display: flex;
-    color: rgb(224, 224, 96);
+    color: rgb(29, 74, 167);
     text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .left-nav, .right-nav, p {
@@ -40,15 +43,145 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 100;
     color: rgb(224, 224, 96);
     margin-left: 4%;
+}
+
+.logo-web img {
+    width: 100%;
+    padding: 3% 0;
 }
 
 .main-title {
     font-size: xx-large;
     font-weight: 500;
     margin-bottom: -10px;
+}
+
+.custom-nav {
+    background-color: #fffbe7;
+}
+
+/* Tùy chỉnh cho Logo */
+.navbar-brand img {
+    max-height: 50px; /* Đảm bảo logo không quá cao */
+    width: auto; /* Giữ tỉ lệ của logo */
+}
+
+/*Tùy chỉnh cho Toggle*/
+.bnt-toggle {
+    display: block;
+    background-color: #f24c25;
+    color: #fffbe7;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+/* Menu cho thiết bị mobile*/
+.navbar-links {
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: #fffbe7;
+    padding: 10px 0;
+    list-style: none;
+    text-align: left;
+    gap: 10px;
+    z-index: 100;
+    border-radius: 10px; /* Bo góc nhẹ */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Đổ bóng để tạo hiệu ứng nổi */
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.navbar-links.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-links li a {
+    color: rgb(29, 74, 167);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover {
+    background-color: #f24c25;
+}
+
+.logo-wrapper {
+    position: relative;
+    width: 150px; /* Đặt kích thước cố định cho logo */
+    height: 60px; /* Đặt chiều cao cố định để khung không thay đổi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img, .hover-text {
+    position: absolute;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    will-change: opacity, transform;
+}
+
+.logo-img {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hover-text {
+    opacity: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f24c25;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.logo-wrapper.hovered .logo-img {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.logo-wrapper.hovered .hover-text {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Điều chỉnh cho màn hình nhỏ (điện thoại) */
+@media (max-width: 767px) {
+    .hover-text {
+        font-size: 16px; /* Giảm kích thước chữ trên điện thoại */
+        line-height: 1.1; /* Giảm khoảng cách giữa các dòng */
+    }
+
+    .logo-wrapper {
+        width: 100px; /* Điều chỉnh kích thước logo trên điện thoại */
+        height: 50px;
+        margin-left: 50%;
+    }
+}
+
+/* Điều chỉnh cho màn hình lớn (laptop) */
+@media (min-width: 768px) {
+    .hover-text {
+        font-size: 20px; /* Kích thước lớn hơn cho màn hình lớn */
+        line-height: 1.2; /* Khoảng cách dòng phù hợp trên laptop */
+    }
+
+    .logo-wrapper {
+        width: 150px; /* Kích thước logo lớn hơn cho laptop */
+        height: 60px;
+    }
 }
