@@ -1,7 +1,7 @@
 import React from 'react';
 import 'antd/dist/reset.css';
 import './Slider.css';
-import slider_1 from '../../Accsets/slider_1.jpg';
+import slider_1 from '../../Accsets/jpeg-optimizer_03.jpg';
 import { Carousel, Row, Col } from 'antd';
 
 const Slider = () => {
