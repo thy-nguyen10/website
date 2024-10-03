@@ -1,6 +1,6 @@
 import React from 'react'
 import './Banner.css'
-import slider_1 from '../../Accsets/slider_1.png'
+import slider_1 from '../../Accsets/slider_1.jpg'
 
 const Banner = () => {
   return (

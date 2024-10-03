@@ -63,3 +63,38 @@
     cursor: pointer;
 }
   
+/* Media queries cho màn hình nhỏ (điện thoại) */
+@media (max-width: 767px) {
+    .slider-image {
+        height: 70vh; /* Sử dụng height để làm ảnh cao hơn trên điện thoại */
+        object-fit: cover; /* Giữ cho ảnh bao phủ khu vực hiển thị */
+    }
+    .slider-text-overlay h2 {
+        font-size: 16px; /* Giảm kích thước chữ */
+    }
+
+    .slider-text-button-overlay p {
+        font-size: 25px; /* Giảm kích thước text trên điện thoại */
+    }
+
+    .slider-text-button-overlay button {
+        padding: 8px 30px; /* Giảm padding của button */
+        font-size: 16px;   /* Giảm kích thước chữ của button */
+    }
+}
+
+/* Media queries cho màn hình lớn (laptop và desktop) */
+@media (min-width: 768px) {
+    .slider-text-overlay h2 {
+        font-size: 20px; /* Kích thước chữ lớn hơn cho màn hình lớn */
+    }
+
+    .slider-text-button-overlay p {
+        font-size: 35px; /* Giữ nguyên kích thước chữ */
+    }
+
+    .slider-text-button-overlay button {
+        padding: 10px 50px; /* Giữ padding cho button */
+        font-size: 20px;    /* Giữ kích thước chữ cho button */
+    }
+}

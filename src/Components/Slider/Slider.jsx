@@ -1,14 +1,14 @@
 import React from 'react';
 import 'antd/dist/reset.css';
 import './Slider.css';
-import slider_1 from '../../Accsets/slider_1.png';
+import slider_1 from '../../Accsets/slider_1.jpg';
 import { Carousel } from 'antd';
 
 const Slider = () => {
   return (
     <div className='supper-slider'>
         <div className="slider-text-overlay">
-            <h2>you look good</h2>
+            
             {/* <p>high summer</p> */}
       </div>
       <div className='slider-text-button-overlay'>
