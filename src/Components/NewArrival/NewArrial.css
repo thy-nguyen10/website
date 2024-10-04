@@ -1,63 +1,76 @@
+.new_arrival {
+    margin-top: 8%;
+}
+
 .title {
-    text-transform: uppercase;
-    font-size: 25px;
+    text-align: center;
+    font-size: 24px;
     font-weight: 500;
-    padding-bottom: 10px;
-    margin-top: 4%;
+    text-transform: uppercase;
 }
-
-.main_new_arrival, .price_addtocard {
+  
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 2fr)); /* Sử dụng Grid với cột động */
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+  
+.card_product {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-
-.name_new_arrival{
+  
+.name_product {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin-top: 10px;
 }
-
-.sub_favorite {
-    width: 30px;
+  
+.icon_love {
+    cursor: pointer;
     height: 30px;
-    background-color: rgb(141, 141, 144);
+    width: 30px;
+    background: #928f5a9e;
     border-radius: 50%;
-}
-
-.icon_heart {
-    margin-left: 17%;
-    margin-top: 17%;
-    color: rgb(255, 255, 255);
-}
-
-.main_name_new_arrival h4{
     font-size: 20px;
 }
-
-.main_name_new_arrival p {
-    font-size: 15px;
-}
-
-.img_new_arrival_item img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    border: none;
-}
-
-.price_addtocart {
+  
+.price_and_addtocart {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(141, 141, 144);
-    height: 40px;
-    font-size: 15px;
-    border-radius: 50px;
+    align-items: center;
     margin-top: 10px;
-    font-weight: 500;
 }
-
-.price_addtocart p {
-    margin: 11px 15px;
+  
+@media only screen and (max-width: 768px) {
+    .title {
+      font-size: 20px;
+    }
+  
+    .product {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 15px;
+    }
+  
+    .price_and_addtocart p {
+      font-size: 14px;
+    }
 }
+  
+@media only screen and (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .product {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+  
+    .price_and_addtocart p {
+      font-size: 12px;
+    }
+}
+  
